@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'SUIT-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUIT-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: black;}
+body{ font-family: 'SUIT-Regular'; font-size: 18px; line-height: 26px;}
+
+.loader p:nth-child(2){font-size: 30px;}
+
+
+
+
+/**탑 메뉴**/
+.menu{background-color: black; width: 100%; height: 100px;
+    position: fixed;
+   top: 0;
+   left: 0;
+z-index: 99;}
+.menuin{width: 1320px; margin: auto;}
+.menu1> li> a{color: white; display: block; margin: 37px 10px 32px 0px; }
+.menu1> li:nth-child(1){padding-left: 193px;}
+.menu1> li:nth-child(2){padding-left: 120px; padding-right: 118px;}
+.menu1> li:nth-child(3){padding-right: 120px;}
+.menu1> li:nth-child(4){padding-left: 0px;}
+
+.menu1> li> a:hover{opacity: 0.5;}
+.menu1{float: left;}
+.menu1> li{float: left;}
+
+.icon{padding-right: 30px;}
+.icon li{display: inline-block; float: left; padding-top: 37px;}
+.icon img:hover{opacity: 0.5;}
+.icon li:nth-child(2){padding-left: 50px; padding-right: 50px;}
+/**서브 메뉴**/
+.sub{position: absolute; width: 100%; left: 0; z-index: 99;}
+.sub1{margin: auto; width: 1320px;}
+.sub1 a{color: white;}
+.sub1 a:hover{opacity: 0.5;}
+.sub1 li{padding-top: 15px;}
+
+
+.sub{background-color: rgba(000, 000, 000, 70%)}
+.sub{display: none; padding-bottom: 15px;}
+
+.sub ul{float: left; }
+.menu li:hover .sub{display: block;}
+
+.topul1{padding-left: 306px; text-align: center; padding-top: 10px;}
+.topul2{padding-left: 102px;padding-top: 10px;}
+.topul3{padding-left: 102px;padding-top: 10px;}
+.topul4{padding-left: 80px; text-align: center;padding-top: 10px;}
+
+
+.logo{float: left;}
+
+.icon{float: right;}
+
+
+
+
+/**--------------------------서브 메뉴--------------------------**/
+
+.topbanner{margin: auto; width: 100%; overflow: hidden;}
+.topbanner img{width: 100%;}
+h2{font-size: 30px; text-align: center; margin-bottom: 50px;}
+
+.indiv{width: 100%; overflow: hidden;}
+.indiv1{width: 1320px; margin: auto; height: 1300px;
+position: relative;}
+.indiv1 h2{padding-top: 100px;}
+.indiv1 p span{font-weight: bold;}
+.left{position: absolute; left :-300px;}
+.leftp{position: absolute; right :30px; top: 300px; line-height: 40px; text-align: center;}
+.rightp{
+    position: absolute; 
+    left: 30px;
+    text-align: center;
+    top: 730px;
+    line-height: 40px;
+}
+.right{position: absolute; right :-300px; top: 600px;}
+
+/**로고**/
+.mainlogo{padding-top: 300px; height: 1982px; width: 1320px; margin: auto; background: url(images/mainlogo.jpg.png) no-repeat; position: relative; display:block;}
+.mainlogo p{text-align: center; position: absolute; color: white; bottom: 475px; left: 420px;  line-height: 60px; font-size: 19px;}
+.mainlogo span{font-weight: bold;}
+
+.sublogo{width: 1316px; height: 1443px; margin: auto; background: url(images/sublogo.jpg) no-repeat;}
+.sublogo p{line-height: 45px;}
+
+
+.sublogo2 p{padding-top: 15px;}
+.wave{padding-top: 70px;}
+
+
+.sublogo ul{padding: 125px 100px 220px 240px;}
+.sublogo h2{color: white; padding-top: 100px;}
+.sublogo li{color: white; float: left; padding-right: 110px;}
+
+
+.logo1{position: absolute; left: 120px; top: 850px;}
+.logo2{position: absolute; left: 400px; top: 1100px;}
+.logo3{position: absolute; left: 600px; top: 850px;}
+.logo4{position: absolute; left: 800px; top: 1100px;}
+.logo5{position: absolute; left: 1000px; top: 850px;}
+
+
+
+
+
+
+
+
+
+/**컬러**/
+.black{width: 883px; margin: auto; overflow: hidden; padding-top: 300px;}
+.black li{display: block; float: left;}
+.black p{padding: 60px 70px 54px; display: block; line-height: 80px; border: black 3px solid;}
+
+
+.blue{width: 883px; margin: auto; overflow: hidden; padding: 100px 0;}
+.blue li{float: left; }
+.blue p{padding: 17px 76px; display: block; line-height: 80px; border: #336699 3px solid; color: #336699;}
+
+.green{width: 883px; margin: auto; overflow: hidden;}
+.green li{float: left;}
+.green p{padding: 17px 76px; line-height: 80px; border: #26734d 3px solid; color: #26734d;}
+
+/**폰트**/
+.font{padding: 300px 0; width: 1320px; margin: auto;}
+.font li{float: left;}
+
+.fontp{margin-left: 245px; line-height: 70px; border: 2px solid black; padding: 20px 120px;}
+.font h2{padding-bottom: 100px;}
+
+
+
+/**푸터**/
+.footertop{background-color: #b8cdc3; width: 100%; height: 172px; margin: auto;}
+.footertop1{width: 1320px; margin: auto;}
+.footertop1 img:nth-child(1){padding-left: 60px;}
+.footertop img{padding-left: 155px; padding-top: 25px;}
+.wave{padding-bottom: 35px;}
+
+.footer{font-size: 12px; height: 282px; width: 100%; margin: auto; color: white; background-color: black; font-size: 14px; display: block;}
+.footerinner{margin: auto; height: 282px; width: 1320px;}
+.footerinner1{padding-bottom: 20px; width: 200px; float: left;}
+.footerinner span{text-decoration: underline;}
+.footerinner1 p{line-height: 35px;}
+.footerindiv{padding: 35px 0; font-size: 30px;}
+
+
+.footerinner2{width: 500px; margin: auto; overflow: hidden;
+     padding-bottom: 10px; display: inline-block; padding-left: 220px;}
+.footerinner2 li{float: left; padding-right: 60px; padding-bottom: 50px;}
+.footerinner2 p{clear: both;}
+.footerinner2 ul{padding-top: 35px;}
+.footerinner2 a{color: white;}
+
+
+.footerinner3{float: right; padding-top: 35px;}
+.footerinner3 li{float: left; opacity: 0.5; margin-left: 10px;}
+.footerinner3 li:hover{opacity: 1;}
