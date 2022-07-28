@@ -26,7 +26,8 @@
 *{margin: 0; padding: 0;}
 ul{list-style: none;}
 a{text-decoration: none; color: black;}
-body{ font-family: 'SUIT-Regular'; font-size: 18px; line-height: 26px;}
+body{ font-family: 'SUIT-Regular'; font-size: 18px; line-height: 26px;
+    min-width: 1320px;}
 
 .loader p:nth-child(2){font-size: 30px;}
 

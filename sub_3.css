@@ -27,7 +27,8 @@
 *{margin: 0; padding: 0;}
 ul{list-style: none;}
 a{text-decoration: none; color: black;}
-body{ font-family: 'SUIT-Regular'; font-size: 18px; line-height: 26px;}
+body{ font-family: 'SUIT-Regular'; font-size: 18px; line-height: 26px;
+    min-width: 1320px;}
 
 .loader p:nth-child(2){font-size: 30px;}
 
@@ -95,7 +96,7 @@ z-index: 99;}
 
 /**로그인**/
 .login{width: 100%; margin: auto; overflow: hidden; padding: 100px 0;}
-.login1{width: 1320px; height: 281px; margin: auto; background: url(images/login.jpg) no-repeat;}
+.login1{width: 1320px; height: 281px; margin: auto; background: url(images/login.jpg) no-repeat fixed;}
 .login1 a{border: 1px black solid; display: inline-block;  padding: 15px 40px; background-color: black; color: white; margin: 15px 0;}
 .login1 p{text-align: center; padding-top: 100px;}
 .login1 a:hover{color: black; background-color: white;}
